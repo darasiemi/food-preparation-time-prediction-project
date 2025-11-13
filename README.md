@@ -1,4 +1,4 @@
-# Machine Learning for Food Processing Prediction.
+# Machine Learning for Food Processing Time Prediction.
 
 ##  Project Overview  
 This project predicts **food processing time** — the duration between when an order is placed and when it is ready — for a **food delivery app**.  
