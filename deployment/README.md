@@ -37,3 +37,25 @@ To run our test
 ```bash
 uv run python -m deployment.test
 ```
+To install black and isort for code formating
+```bash
+uv add --dev black isort pre-commit
+
+```
+
+To run the formatting
+```bash
+uv run black .
+```
+```bash
+uv run isort .
+```
+
+To install precommit hooks
+```bash
+uv run pre-commit install
+```
+To run precommits
+```bash
+uv run pre-commit run --all-files
+```

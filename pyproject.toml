@@ -14,5 +14,8 @@ dependencies = [
 
 [dependency-groups]
 dev = [
+    "black>=25.11.0",
+    "isort>=7.0.0",
+    "pre-commit>=4.4.0",
     "requests>=2.32.5",
 ]
