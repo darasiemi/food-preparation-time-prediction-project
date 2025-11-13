@@ -2,3 +2,5 @@ kaggle.json
 ieee-fraud-detection.zip
 data/*
 food-ordering-and-delivery-app-dataset.zip
+modeling/catboost_info
+modeling/prep_time_pipeline.pkl
