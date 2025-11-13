@@ -37,8 +37,10 @@ This project uses **machine learning** to build a **data-driven model** that pro
 ## ⚙️ Tech Stack  
 - **Python**  
 - **pandas**, **NumPy**, **scikit-learn**, **XGBoost**  
-- **Matplotlib**, **Seaborn** for data visualization  
-- **Jupyter Notebook** for experimentation  
+- **Matplotlib**, for data visualization  
+- **Jupyter Notebook** for experimentation
+- **FastAPI** as web service app 
+- **uv** as dependency manager 
 
 ---
 
