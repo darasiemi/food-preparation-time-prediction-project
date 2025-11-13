@@ -239,11 +239,13 @@ def root():
 @app.post("/predict")
 def predict(order: Order) -> PredictResponse:
     X = pd.DataFrame([order.model_dump()])
-    pred = pipeline.predict(X)
+    pred = round(pipeline.predict(X)[0], 2)
     # print(order)
 
     return PredictResponse(
-        order_id=order.order_id, customer_id=order.customer_id, prediction=pred
+        order_id=order.order_id,
+        customer_id=order.customer_id,
+        prediction=pred,
     )
 
 
