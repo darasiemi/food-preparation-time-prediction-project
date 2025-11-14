@@ -106,7 +106,7 @@ Again, to run the test to ensure the web service endpoint is up and running, thi
 uv run python -m deployment.test
 ```
 You will see
-![Response of call to endpoint](./images/sample_test.jpeg)
+![Response of call to endpoint](../images/sample_test.jpeg)
 To terminate
 ```bash
 uv run eb terminate food-prep-env
