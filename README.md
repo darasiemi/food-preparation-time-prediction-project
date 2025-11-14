@@ -53,7 +53,28 @@ This project uses **machine learning** to build a **data-driven model** that pro
 A predictive model that adapts to changing restaurant and order dynamics, outperforming rule-based estimates in predicting food preparation time and improving delivery ETA accuracy.
 
 ## Project Directory
-`ml-zoomcamp-project/
+<details>
+  <summary>Project structure</summary>
+
+  <pre>
+ml-zoomcamp-project/
+├─ EDA/
+├─ modeling/
+├─ deployment/ (predict.py, train.py, test.py, pyproject.toml, uv.lock)
+├─ data/ (food_order.csv)
+├─ model/ (model.pkl)
+├─ utils/ (__init__.py, build_pipeline.py, preprocess.py, data_split.py, load_data.py, save_load_model.py)
+├─ Dockerfile
+├─ README.md
+├─ .pre-commit-config.yaml
+├─ .gitignore
+├─ .python-version
+├─ pyproject.toml
+└─ uv.lock
+  </pre>
+</details>
+
+<!-- `ml-zoomcamp-project/
 ├─ EDA/
 │  ├─ project_notebook.ipynb          # exploratory data analysis
 │  └─ README.md
@@ -86,7 +107,7 @@ A predictive model that adapts to changing restaurant and order dynamics, outper
 ├─ README.md
 ├─ pyproject.toml                     # project-level config (if used)
 └─ uv.lock
-`
+` -->
 
 
 
