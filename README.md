@@ -49,7 +49,7 @@ This project uses **machine learning** to build a **data-driven model** that pro
 - **Jupyter Notebook** for experimentation
 - **FastAPI** as web service app 
 - **uv** as dependency manager 
-- **AWS ElasticBeanstalk** for cloud deployment
+- **AWS Elastic Beanstalk** for cloud deployment
 
 ---
 
