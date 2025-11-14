@@ -14,6 +14,7 @@ dependencies = [
 
 [dependency-groups]
 dev = [
+    "awsebcli>=3.25.3",
     "black>=25.11.0",
     "isort>=7.0.0",
     "pre-commit>=4.4.0",

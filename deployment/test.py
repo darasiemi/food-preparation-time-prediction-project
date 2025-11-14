@@ -1,6 +1,7 @@
 import requests
 
-host = "localhost:9696"
+# host = "localhost:9696" #use this for local testing
+host = "food-prep-env.eba-wdk6k8ez.eu-north-1.elasticbeanstalk.com"  # use this for Elastic Beanstalk endpoint
 
 url = f"http://{host}/predict"
 
