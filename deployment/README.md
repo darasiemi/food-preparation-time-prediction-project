@@ -61,6 +61,8 @@ To run precommits
 ```bash
 uv run pre-commit run --all-files
 ```
+Everytime you make changes to the code and make a commit, you see something similar to this which runs black and isort checks on the code
+![Precommit](../images/precommits.jpeg)
 ## Docker
 To build docker image
 ```bash
