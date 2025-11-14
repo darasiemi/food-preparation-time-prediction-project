@@ -49,6 +49,7 @@ This project uses **machine learning** to build a **data-driven model** that pro
 - **Jupyter Notebook** for experimentation
 - **FastAPI** as web service app 
 - **uv** as dependency manager 
+- **AWS ElasticBeanstalk** for cloud deployment
 
 ---
 
@@ -66,6 +67,7 @@ ml-zoomcamp-project/
 ├─ deployment/ (predict.py, train.py, test.py, pyproject.toml, uv.lock)
 ├─ data/ (food_order.csv)
 ├─ model/ (model.pkl)
+├─ images/ (sample_test.jpeg)
 ├─ utils/ (__init__.py, build_pipeline.py, preprocess.py, data_split.py, load_data.py, save_load_model.py)
 ├─ Dockerfile
 ├─ README.md

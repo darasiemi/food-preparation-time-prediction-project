@@ -77,7 +77,7 @@ Again, to run the test to ensure the web service endpoint is up and running,
 uv run python -m deployment.test
 ```
 ## Cloud Deployment
-Cloud deployment. I used AWS Elasticbeanstalk for deployment
+I used AWS Elasticbeanstalk for cloud deployment
 ```bash
 uv add --dev awsebcli
 ```
