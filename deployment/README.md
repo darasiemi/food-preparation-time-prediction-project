@@ -40,7 +40,6 @@ uv run python -m deployment.test
 To install black and isort for code formating
 ```bash
 uv add --dev black isort pre-commit
-
 ```
 
 To run the formatting
@@ -58,4 +57,19 @@ uv run pre-commit install
 To run precommits
 ```bash
 uv run pre-commit run --all-files
+```
+
+To build docker image
+```bash
+docker build -t food-prep .
+```
+
+To run the container
+```bash
+docker run -it --rm -p 9696:9696 food-prep
+```
+
+Again, to run the test to ensure the web service endpoint is up and running, 
+```bash
+uv run python -m deployment.test
 ```

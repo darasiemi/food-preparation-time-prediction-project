@@ -52,6 +52,41 @@ This project uses **machine learning** to build a **data-driven model** that pro
 ## 📊 Expected Outcome  
 A predictive model that adapts to changing restaurant and order dynamics, outperforming rule-based estimates in predicting food preparation time and improving delivery ETA accuracy.
 
+## Project Directory
+ml-zoomcamp-project/
+├─ EDA/
+|  ├─ project_notebook.ipynb # notebooks for exploratory data analysis
+│  └─ README.md                 
+├─ modeling/
+|  ├─ model_notebook.ipynb                 # modeling experimentsnotebooks
+│  └─ README.md  
+├─ deployment/
+|  ├─ __init__.py
+│  ├─ predict.py       #fastAPI web-service code     
+│  ├─ train.py          #script to train the model  
+│  ├─ test.py           #code to test the endpoint
+│  └─ README.md
+├─ data/
+│  └─ food_order.csv    
+├─ model/
+│  └─ model.pkl           # fitted pipeline/model artifact (loaded by API)
+├─ utils/
+│  ├─ __init__.py
+│  ├─ data_split.py          
+│  ├─ load_data.py 
+│  ├─ save_load_model.py       #save and load model     
+│  ├─ preprocess.py          #script to train the model  
+│  └─ build_pipeline.py   # preprocessing & pipeline builders
+├─ .gitignore
+├─ .pre-commit-config.yaml
+├─ .python-version
+├─ README.md
+├─ pyproject.toml         # project-level config
+├─ uv.lock
+├─ Dockerfile
+└─ __init__.py
+
+
 
 <!-- ## 🚀 Future Improvements  
 - Integrate real-time API predictions into the delivery app  
@@ -67,4 +102,4 @@ Requirements are
 3. Prepare the data and run EDA
 4. Train several models, tune them, and pick the best
 5. Export your notebook to a script
-Package your model as a web service and deploy it with Docker
+6. Package your model as a web service and deploy it with Docker
