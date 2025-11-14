@@ -55,36 +55,38 @@ A predictive model that adapts to changing restaurant and order dynamics, outper
 ## Project Directory
 ml-zoomcamp-project/
 ├─ EDA/
-|  ├─ project_notebook.ipynb # notebooks for exploratory data analysis
-│  └─ README.md                 
-├─ modeling/
-|  ├─ model_notebook.ipynb                 # modeling experimentsnotebooks
-│  └─ README.md  
-├─ deployment/
-|  ├─ __init__.py
-│  ├─ predict.py       #fastAPI web-service code     
-│  ├─ train.py          #script to train the model  
-│  ├─ test.py           #code to test the endpoint
+│  ├─ project_notebook.ipynb          # exploratory data analysis
 │  └─ README.md
+├─ modeling/
+│  ├─ model_notebook.ipynb            # modeling experiments
+│  └─ README.md
+├─ deployment/
+│  ├─ __init__.py
+│  ├─ predict.py                      # FastAPI web service
+│  ├─ train.py                        # train/export model
+│  ├─ test.py                         # endpoint test script
+│  ├─ README.md
+│  ├─ pyproject.toml                  # uv config (deployment env)
+│  └─ uv.lock
 ├─ data/
-│  └─ food_order.csv    
+│  └─ food_order.csv                  # sample dataset
 ├─ model/
-│  └─ model.pkl           # fitted pipeline/model artifact (loaded by API)
+│  └─ model.pkl                       # fitted pipeline/model artifact
 ├─ utils/
 │  ├─ __init__.py
-│  ├─ data_split.py          
-│  ├─ load_data.py 
-│  ├─ save_load_model.py       #save and load model     
-│  ├─ preprocess.py          #script to train the model  
-│  └─ build_pipeline.py   # preprocessing & pipeline builders
+│  ├─ build_pipeline.py               # preprocessing & pipeline builder
+│  ├─ preprocess.py                   # feature engineering helpers
+│  ├─ data_split.py                   # train/val/test split helpers
+│  ├─ load_data.py                    # dataset loader
+│  └─ save_load_model.py              # save/load utilities
 ├─ .gitignore
 ├─ .pre-commit-config.yaml
 ├─ .python-version
-├─ README.md
-├─ pyproject.toml         # project-level config
-├─ uv.lock
 ├─ Dockerfile
-└─ __init__.py
+├─ README.md
+├─ pyproject.toml                     # project-level config (if used)
+└─ uv.lock
+
 
 
 
