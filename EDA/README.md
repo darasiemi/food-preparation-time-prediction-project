@@ -37,6 +37,11 @@ To unzip
 unzip "food-ordering-and-delivery-app-dataset.zip" -d "data/"
 ```
 
+To launch jupyter notebook
+```bash
+jupyter notebook
+```
+
 
 
 
