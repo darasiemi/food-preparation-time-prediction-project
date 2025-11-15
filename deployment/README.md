@@ -109,6 +109,15 @@ uv run python -m deployment.test
 ```
 You will see
 ![Response of call to endpoint](../images/sample_test.jpeg)
+
+When you check the endpoint created by AWS, you will see
+You will see
+![Fast API docs](../images/fast_api_docs.jpeg)
+
+And the response looks like,
+You will see
+![Fast API docs](../images/fast_api_response.jpeg)
+
 To terminate
 ```bash
 uv run eb terminate food-prep-env

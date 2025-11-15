@@ -67,7 +67,7 @@ ml-zoomcamp-project/
 ├─ deployment/ (predict.py, train.py, test.py, pyproject.toml, uv.lock)
 ├─ data/ (food_order.csv)
 ├─ model/ (model.pkl)
-├─ images/ (sample_test.jpeg, precommits.jpeg)
+├─ images/ (sample_test.jpeg, precommits.jpeg, fast_api_docs.jpeg, fast_api_response.jpeg)
 ├─ utils/ (__init__.py, build_pipeline.py, preprocess.py, data_split.py, load_data.py, save_load_model.py)
 ├─ Dockerfile
 ├─ README.md
