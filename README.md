@@ -64,7 +64,7 @@ A predictive model that adapts to changing restaurant and order dynamics, outper
 ml-zoomcamp-project/
 ├─ EDA/
 ├─ modeling/
-├─ deployment/ (predict.py, train.py, test.py, pyproject.toml, uv.lock)
+├─ deployment/ (__init__.py, predict.py, train.py, test.py, pyproject.toml, uv.lock)
 ├─ data/ (food_order.csv)
 ├─ model/ (model.pkl)
 ├─ images/ (sample_test.jpeg, precommits.jpeg, fast_api_docs.jpeg, fast_api_response.jpeg)
